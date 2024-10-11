@@ -6,9 +6,6 @@ from pymongo import MongoClient
 
 # Setup
 load_dotenv()
-MONGO_CLIENT = MongoClient(os.getenv('MONGO_CONNECTION'))
-DATABASE = MONGO_CLIENT[os.getenv('MONGO_DB_NAME')]
-COLLECTION = DATABASE[os.getenv('MONGO_COLLECTION_NAME')]
 app = Flask(__name__)
 
 # Globals
