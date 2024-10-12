@@ -16,4 +16,4 @@ CRON_SECRET = os.getenv('CRON_SECRET')
 async def root() -> Response:
     """
     """
-    return {"msg", "Hello!"}, 200
+    return {"msg": "Hello!"}, 200
