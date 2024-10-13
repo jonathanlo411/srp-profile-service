@@ -1,0 +1,10 @@
+{
+    "version": 1,
+    "domainName": "https://profile.srp-tracker.lojot.com/",
+    "queryOptions": {
+        "pagesPerLeaderboard": 50
+    },
+    "srpLeaderboardData": {
+        "entriesPerPage": 25
+    }
+}
